@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "aoc output 2024 ${fileDirnameBasename}",
+			"label": "run full ruby"
+		},
+		{
+			"type": "shell",
+			"command": "RB_ENV=test aoc spec 2024 ${fileDirnameBasename}",
+			"label": "run test ruby"
+		}
+	]
+}
