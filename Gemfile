@@ -10,3 +10,5 @@ gem "algorithms", "~> 1.0"
 gem "matrix", "~> 0.4.2"
 
 gem "csv", "~> 3.3"
+
+gem "parallel", "~> 1.26"

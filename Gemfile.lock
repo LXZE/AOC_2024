@@ -28,6 +28,7 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     paint (2.3.0)
+    parallel (1.26.3)
     racc (1.8.1)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
@@ -54,6 +55,7 @@ DEPENDENCIES
   csv (~> 3.3)
   matrix (~> 0.4.2)
   paint (~> 2.3)
+  parallel (~> 1.26)
 
 BUNDLED WITH
    2.5.22
