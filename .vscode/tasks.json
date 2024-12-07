@@ -4,12 +4,14 @@
 		{
 			"type": "shell",
 			"command": "aoc output 2024 ${fileDirnameBasename}",
-			"label": "run full ruby"
+			"label": "run full ruby",
+			"options": {"shell": {"args": ["-c"]}}
 		},
 		{
 			"type": "shell",
 			"command": "RB_ENV=test aoc spec 2024 ${fileDirnameBasename}",
-			"label": "run test ruby"
+			"label": "run test ruby",
+			"options": {"shell": {"args": ["-c"]}}
 		}
 	]
 }
